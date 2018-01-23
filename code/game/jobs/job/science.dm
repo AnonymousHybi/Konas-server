@@ -41,7 +41,7 @@
 	selection_color = "#633D63"
 	idtype = /obj/item/weapon/card/id/science/scientist
 	economic_modifier = 7
-	access = list(access_robotics, access_tox, access_tox_storage, access_research, access_xenobiology, access_xenoarch)
+	access = list(access_robotics, access_tox, access_tox_storage, access_research, access_xenobiology, access_xenoarch, access_maint_tunnels)
 	minimal_access = list(access_tox, access_tox_storage, access_research, access_xenoarch)
 
 	minimal_player_age = 14
@@ -61,7 +61,7 @@
 	selection_color = "#633D63"
 	idtype = /obj/item/weapon/card/id/science/xenobiologist
 	economic_modifier = 7
-	access = list(access_robotics, access_tox, access_tox_storage, access_research, access_xenobiology, access_hydroponics)
+	access = list(access_robotics, access_tox, access_tox_storage, access_research, access_xenobiology, access_hydroponics, access_maint_tunnels)
 	minimal_access = list(access_research, access_xenobiology, access_hydroponics, access_tox_storage)
 
 	minimal_player_age = 14
@@ -81,7 +81,7 @@
 	selection_color = "#633D63"
 	idtype = /obj/item/weapon/card/id/science/roboticist
 	economic_modifier = 5
-	access = list(access_robotics, access_tox, access_tox_storage, access_tech_storage, access_morgue, access_research) //As a job that handles so many corpses, it makes sense for them to have morgue access.
+	access = list(access_robotics, access_tox, access_tox_storage, access_tech_storage, access_morgue, access_research, access_maint_tunnels) //As a job that handles so many corpses, it makes sense for them to have morgue access.
 	minimal_access = list(access_robotics, access_tech_storage, access_morgue, access_research) //As a job that handles so many corpses, it makes sense for them to have morgue access.
 	minimal_player_age = 7
 
